@@ -6,6 +6,8 @@ import Footer from "../common/Footer";
 import About from "./About";
 import ServiceImg from "../../assets/images/construction1.jpg";
 import ConstrutionImg from "../../assets/images/construction2.jpg";
+import BlogImg from "../../assets/images/construction3.jpg";
+
 import Icon1 from "../../assets/images/icon-1.svg";
 import Icon2 from "../../assets/images/icon-2.svg";
 import Icon3 from "../../assets/images/icon-3.svg";
@@ -75,7 +77,7 @@ const Home = () => {
                         supports modern society.
                       </p>
                     </div>
-                    <a href="#" className="btn btn-primary">
+                    <a href="#" className="btn btn-primary small">
                       Read More
                     </a>
                   </div>
@@ -97,7 +99,7 @@ const Home = () => {
                         specialized skills, materials, and techniques.
                       </p>
                     </div>
-                    <a href="#" className="btn btn-primary">
+                    <a href="#" className="btn btn-primary small">
                       Read More
                     </a>
                   </div>
@@ -120,7 +122,7 @@ const Home = () => {
                         industrial use.
                       </p>
                     </div>
-                    <a href="#" className="btn btn-primary">
+                    <a href="#" className="btn btn-primary small">
                       Read More
                     </a>
                   </div>
@@ -143,7 +145,7 @@ const Home = () => {
                         use.
                       </p>
                     </div>
-                    <a href="#" className="btn btn-primary">
+                    <a href="#" className="btn btn-primary small">
                       Read More
                     </a>
                   </div>
@@ -658,6 +660,72 @@ const Home = () => {
                 </div>
               </SwiperSlide>
             </Swiper>
+          </div>
+        </section>
+        {/* blog & news*/}
+        <section className="section-6 bg-ligh py-5">
+          <div className="container">
+            <div className="section-header text-center">
+              <span>Blog & News</span>
+              <h2>Articles & blog posts</h2>
+              <p>
+                We offer a diverse array of construction services, spanning
+                residential, commercial, and industrial projects.
+              </p>
+            </div>
+            <div className="row pt-3">
+              <div className="col-md-4">
+                <div className="card shadow border-0">
+                  <div className="card-img-top">
+                    <img src={BlogImg} alt="" className="w-100" />
+                  </div>
+                  <div className="card-body p-4">
+                    <div className="mb-3">
+                      <a href="#" className="title">
+                        Dummy blog title
+                      </a>
+                    </div>
+                    <a href="#" className="btn btn-primary small">
+                      Read More
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card shadow border-0">
+                  <div className="card-img-top">
+                    <img src={BlogImg} alt="" className="w-100" />
+                  </div>
+                  <div className="card-body p-4">
+                    <div className="mb-3">
+                      <a href="#" className="title">
+                        Dummy blog title
+                      </a>
+                    </div>
+                    <a href="#" className="btn btn-primary small">
+                      Read More
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card shadow border-0">
+                  <div className="card-img-top">
+                    <img src={BlogImg} alt="" className="w-100" />
+                  </div>
+                  <div className="card-body p-4">
+                    <div className="mb-3">
+                      <a href="#" className="title">
+                        Dummy blog title
+                      </a>
+                    </div>
+                    <a href="#" className="btn btn-primary small">
+                      Read More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
