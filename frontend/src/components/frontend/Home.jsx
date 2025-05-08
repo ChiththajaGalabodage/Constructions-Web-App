@@ -11,7 +11,9 @@ import Icon2 from "../../assets/images/icon-2.svg";
 import Icon3 from "../../assets/images/icon-3.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/pagination";
 import AvatarImg from "../../assets/images/author-2.jpg";
+import { Pagination } from "swiper/modules";
 
 const Home = () => {
   return (
@@ -338,10 +340,10 @@ const Home = () => {
               </p>
             </div>
             <Swiper
+              modules={[Pagination]}
               spaceBetween={50}
               slidesPerView={3}
-              onSlideChange={() => console.log("slide change")}
-              onSwiper={(swiper) => console.log(swiper)}
+              pagination={{ clickable: true }}
             >
               <SwiperSlide>
                 <div className="card shadow border-0">

@@ -216,7 +216,10 @@ footer {
 
 .section-5 {
   .swiper {
-    padding: 25px;
+    padding: 25px 25px 50px 25px;
+    .swiper-pagination-bullet-active {
+      background-color: $secondary-color;
+    }
   }
   .card {
     border-radius: 40px;
