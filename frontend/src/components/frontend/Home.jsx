@@ -3,7 +3,7 @@ import React from "react";
 //import AboutImg from "../../assets/images/about-us.jpg";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
-import About from "./About";
+import About from "../common/About";
 import ServiceImg from "../../assets/images/construction1.jpg";
 import ConstrutionImg from "../../assets/images/construction2.jpg";
 import BlogImg from "../../assets/images/construction3.jpg";
