@@ -3,26 +3,19 @@ import Header from "../common/Header";
 import Footer from "../common/Footer";
 import { default as AboutNew } from "../common/About";
 import MemberImg from "../../assets/images/team1.jpg";
+import Hero from "../common/Hero";
 
 const About = () => {
   return (
     <>
       <Header />
       <main>
-        <section className="section-7">
-          <div className="hero d-flex align-items-center">
-            <div className="container">
-              <div className="text-left">
-                <span>Quality. Integrity. Value.</span>
-                <h1>About Us</h1>
-                <p>
-                  We excel at transforming visions into reality <br />
-                  through outstanding craftsmanship and precise.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Hero
+          preHeading="Quality | Integrity | Value"
+          heading="About Us"
+          text="We excel at transforming visions into reality <br />
+              through outstanding craftsmanship and precise."
+        />
         <AboutNew />
 
         {/* our team*/}
